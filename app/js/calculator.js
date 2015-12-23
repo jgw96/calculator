@@ -160,7 +160,7 @@ var Calculator = {
     var value = target.value;
 
     // Adding haptic feedback on key press
-    navigator.vibrate(50);
+    //navigator.vibrate(50);
     switch (target.dataset.type) {
       case 'value':
         this.appendDigit(value);
